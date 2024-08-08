@@ -1,0 +1,14 @@
+basic todo app
+
+features
+
+click to add new todo
+enter to add new todo
+disable the button to add if no text
+disable the enter to add if no text
+delete todo
+edit todo
+
+optional : 
+
+drag and drop todo

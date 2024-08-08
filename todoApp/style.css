@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: orange;
+}
+
+.container {
+    background-color: aquamarine;
+    border: 2px solid red;
+    width: 600px;
+    height: 450px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 50px;
+}
+
+.text-container {
+    background-color: bisque;
+    display: flex;
+    flex-direction: column;
+}
+
+.text-container .textInput {
+    border: 2px solid black;
+}
+
+.text-container .textButton{
+    border-radius: 2px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-size: medium;
+    font-weight: 100;
+    cursor: pointer;
+}
+
+.textButton:hover{
+    background-color: white;
+    color: black;
+}
+
+.todolist{
+    width: 550px;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+li {
+    background-color: white;
+    color: black;
+    width: 550px;
+    height: 45px;
+    list-style-type: none;
+    border: 2px solid black;
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+    justify-content: space-between;
+}
+
+.editButton {
+    border-radius: 2px;
+    background-color: green;
+    color: white;
+    text-align: center;
+    font-size: small;
+    font-weight: 100;
+    cursor: pointer;
+}
+
+.deleteButton {
+    border-radius: 2px;
+    background-color: rgb(183, 33, 33);
+    color: white;
+    text-align: center;
+    font-size: small;
+    font-weight: 100;
+    cursor: pointer;
+}
